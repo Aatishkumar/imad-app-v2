@@ -1,8 +1,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-prompt("Aatish how you are feeling after getting started?");
-console.log(prompt("Aatish how you are feeling after getting started?")
+
 
 var app = express();
 app.use(morgan('combined'));
