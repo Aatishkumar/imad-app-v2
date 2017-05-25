@@ -31,7 +31,7 @@ var articles = {
             date: '15 May',
             content:`
                     <p>
-                        This is content of article third by Aatish Kumar Singh`
+                        This is content of article third by Aatish Kumar Singh
    },
 };
    
@@ -39,9 +39,9 @@ function createTemplate (data){
     var title= data.title;
     var date= data.date;
     var heading = data.heading;
-    var content = data.content;
+    var content = data.content;`
 
-var htmlTemplate=`
+var htmlTemplate=
 <html>
     <head>
         <title>
