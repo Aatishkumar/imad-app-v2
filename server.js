@@ -10,10 +10,10 @@ var articles = {
     title:'Article-one',
     heading:'Article one',
     date: '25 May',
-    content:
+    content:`
             <p>
                 This is content of article one by Aatish Kumar Singh. This is content of article one by Aatish Kumar Singh. This is content of article one by Aatish Kumar Singh.This is content of article one by Aatish Kumar Singh. This is content of article one by Aatish Kumar Singh. This is content of article one by Aatish Kumar Singh. This is content of article one by Aatish Kumar Singh. This is content of article one by Aatish Kumar Singh.
-            </p>
+            </p>`
            
     `
 },
