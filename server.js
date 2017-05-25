@@ -13,14 +13,14 @@ app.grt('/article-one',function(req, res){
     res.sendFile("Article one is requested and will be served here");
 });
 app.grt('/article-two',function(req, res){
-    res.sendFile("Article two is requested and will be served here");
+    res.send("Article two is requested and will be served here");
 });
 app.grt('/article-three',function(req, res){
-    res.sendFile("Article three is requested and will be served here");
+    res.send("Article three is requested and will be served here");
 });
 
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.send(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
